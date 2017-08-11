@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hotspotg\.hotspotg\.byethost5\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hotspotg\.hotspotg\.byethost5\.com$
+RewriteRule ^/?$ "http\:\/\/hotspotg\.com\/" [R=301,L]
+
